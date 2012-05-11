@@ -104,6 +104,7 @@ Tóm lại, dù là vì mục đích gì, các bên đang đổ tiền vào mà 
 #Thảo luận: Tầm nhìn có ý nghĩa thế nào với các bên?
   Từ "tầm nhìn" có hơn một lần được nhắc đến. Vậy tầm nhìn có ý nghĩa thế nào với các bên?
   "Tầm nhìn" là một từ được tương đối nhiều người ưa thích và sử dụng. Tôi đề cập đến nó không vì thói quen chung chung theo cách liệt kê cho có.
+
   - Đối với người dự thi: có tầm nhìn trước hết là rèn luyện khả năng chọn học gì? học thế nào là đủ cơ bản và học sâu những gì.Chính các bạn sẽ quyết định tương lai mình sẽ làm gì và làm ở trình độ nào (hoặc khởi nghiệp?)
   - Các chuyên gia. Theo tôi, chuyên gia phải là những người có chuyên môn tốt, đã qua thực tiễn công việc và có trách nhiệm với CNTT nước nhà. Chính thông tin trung thực về đóng góp của chuyên gia sẽ thu hút thêm các chuyên gia chưa tham dự tổ chức cuộc thi, đồng thời các "chuyên gia lởm" sẽ dần phải thoái lui.
   - Đối với doanh nghiệp: thật khó cho tôi để có thể nói thay cho các doanh nghiệp. Xin chỉ có mấy ý thế này:
