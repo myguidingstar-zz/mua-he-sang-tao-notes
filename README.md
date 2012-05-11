@@ -1,6 +1,6 @@
 #Về cuộc thi "Mùa hè sáng tạo" 2012:
-để MHST thực sự là Mùa hè sáng tạo chứ không phải Mùa hè sưu tầm/săn tiền/sạch túi ;>
-(Revision: 1, Status: DRAFT)
+để MHST thực sự là Mùa hè sáng tạo chứ không phải Mùa hè sông Tô/săn tiền/sạch túi ;>
+(Revision: 2, Status: COMPLETE)
 
 Ban đầu tôi định viết thành một bài dài, nhưng sau đó thấy cần thiết phải chia thành nhiều thread ngắn (các mục Thảo luận phía sau đây khi gửi lên mailing list mỗi thảo luận này sẽ là một thread) để mọi người dễ theo dõi và trao đổi thẳng thắn.
 
@@ -69,12 +69,20 @@ Tóm lại, dù là vì mục đích gì, các bên đang đổ tiền vào mà 
     -> thay vì các đơn thuần tìm kiếm lợi nhuận được đến đâu hay đến đấy.
   - sự ra đời/biến mất của doanh nghiệp là do thị trường quyết định, MHST không muốn và không thể thay vai trò đó của thị trường. Tuy nhiên, thông qua việc đặt những yêu cầu mang tính dài hạn và bền vững, có thể gián tiếp qua đó tác động điều chỉnh trước khi kết cục xấu xảy ra.
 
-#Thảo luận thêm: Nhân tài là gì? (Nháp)
-  Hiện tại "nhân tài" là từ được nhiều doanh nghiệp nhấn mạnh trong tuyên bố chính sách của mình. Vậy khối doanh nghiệp hình dung ra sao về nhân tài?
-  - (kiểu FPT, nerd) đam mê tiền, làm việc vì tiền, quên hết sự đời, tất cả cho công việc. Theo tôi kiểu "huyền bí" này là do thiếu hiểu biết
-    -> hidden cost,
-  - (aka hackers) có đam mê riêng, luôn phát triển bản thân, không khó khăn trong công việc.
-Tất nhiên yếu tố văn hoá sẽ được doanh nghiệp tự đánh giá, lựa chọn.
+#Thảo luận thêm: Nhân tài là gì?
+  Hiện tại "nhân tài" là từ được nhiều doanh nghiệp nhấn mạnh trong tuyên bố chính sách của mình. Vậy khối doanh nghiệp hình dung ra sao về nhân tài? Tiền có phải là thước đo và cách thu hút duy nhất (và đúng đắn???) không? Hiện có 2 quan niệm chủ yếu về "nhân tài"
+  - kiểu nerd: (phải đau lòng mà gọi kiểu này là kiểu FPT)
+  đây là mẫu kẻ có tư chất hơn người, lấy tiền làm thước đo giá trị, cái tôi quá lớn và cách cư xử cũng hơi "dị dạng". Đặc điểm tâm lí của mẫu này là không ngừng đòi hỏi. Đồng thời, vì cái tôi quá lớn, họ có xu hướng sớm ngừng học hỏi, sức bền kém. Với vai trò coder thì mã họ có xu hướng viết "huyền bí", vì họ muốn thể hiện bản thân hơn là vì công việc (và logic cũng có vấn đề?). Điều này làm cho họ khó cộng tác và gặp hạn chế trong các dự án lớn: khi cần đọc lại đoạn mã đã viết thì... chính họ cũng không hiểu :> Vì họ đặt mục tiêu (tiền) lên trên tư cách, họ có thể nhảy việc khi một dự án đang trong giai đoạn gấp rút, hoặc bất ngờ ra đi với bí mật thương mại của công ty v.v... Mẫu người này ở lại lâu cũng chưa hẳn là tốt. Họ liên tục đòi tăng lương (không biết điều) và có xu hướng bè cánh.
+  Tóm lại, "chi phí ẩn" của nhóm này là lớn, và các nhà "giả kim thuật" chưa chắc đã biết nhiều về hoá học.
+  - kiểu hackers (wiki:): cũng là những kẻ hơn người, nhưng họ có đam mê riêng và hệ giá trị tự thân. Mẫu người này không ngừng phát triển bản thân, không ngại khó khăn trong công việc, khi lựa chọn công nghệ họ có những quyết định khách quan. Họ sòng phẳng, nhận đúng những gì mình cảm thấy xứng đáng. Nếu bạn "có ơn" đối với họ trong khi chỗ bạn không đủ cho họ "vẫy vùng" thì họ sẽ sẵn sàng ở thêm 1-2 năm, và khi ra đi còn chào hỏi tử tế ;>
+  Đó là lí do vì sao FOSS là mảnh đất tốt để chiêu mộ nhân tài thực sự.
+  Còn một yếu tố phụ nữa về việc thu hút nhân tài bằng hứa hẹn tài chính: các bác càng hô hào thế thì chỉ tổ phải lo đóng thuế thu nhập cao. Cứ ngấm ngầm "tự sướng" với nhau (nhiều cách mà) có phải hay hơn không?
+
+  Chừng nào chúng ta còn quan niệm về nhân tài một cách không rõ ràng, chừng đó chúng ta vẫn còn xa mới thoát khỏi kiếp nhập khẩu công nghệ.
+
+  Tất nhiên, trên thực tế, sẽ có những nhân tài là trạng thái xen giữa của mỗi kiểu trên với kiểu người thông thường (nhưng không có sự xen giữa của cả 2). Nhiệm vụ của chúng ta là định hướng cho các "nhân sắp tài".
+
+  Thời điểm tốt nhất để trồng cây là 10 năm trước. Thời điểm tốt thứ nhì là ngay bây giờ.
 
 #Thảo luận: Từ "tầm nhìn" có hơn một lần được nhắc đến. Vậy tầm nhìn có ý nghĩa thế nào với các bên?
   "Tầm nhìn" là một từ được tương đối nhiều người ưa thích và sử dụng. Tôi đề cập đến nó không vì thói quen chung chung theo cách liệt kê cho có.
