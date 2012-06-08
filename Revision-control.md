@@ -11,14 +11,14 @@
 ### Các phiên bản (Versions/Revisions)
   Có nhiều phiên bản khác nhau của cùng một đối tượng là một nhu cầu hết sức tự nhiên. Chúng ta sẽ muốn giữ mỗi trạng thái khác nhau đó để mang ra dùng cho từng thời điểm cụ thể. Lục tìm trong máy mỗi người có thể thấy những tên file (các "phiên bản") đại loại như:
 
-    - diễn-văn-tẻ-nhạt_2010.txt
-    - diễn-văn-tẻ-nhạt_2011.txt
-    - diễn-văn-tẻ-nhạt_2012.txt
-    - thư-tình_gửi-Đào.odt
-    - thư-tình_gửi-Lê.odt
-    - thư-tình_gửi-Mận.odt ;)
-    - bản-thiết-kế_đang-tốt.svg
-    - bản-thiết-kế_thử-nghiệm.svg
+  - diễn-văn-tẻ-nhạt_2010.txt
+  - diễn-văn-tẻ-nhạt_2011.txt
+  - diễn-văn-tẻ-nhạt_2012.txt
+  - thư-tình_gửi-Đào.odt
+  - thư-tình_gửi-Lê.odt
+  - thư-tình_gửi-Mận.odt ;)
+  - bản-thiết-kế_đang-tốt.svg
+  - bản-thiết-kế_thử-nghiệm.svg
 
   Cách quản lí đơn giản ở trên vẫn thường được chúng ta thực hiện dễ dàng bằng thao tác `File` -> `Save As...` trong các chương trình máy tính.
 
@@ -30,9 +30,9 @@
 ### Chức năng
   Các Hệ thống Quản lí phiên bản (sau đây gọi là RCS) cung cấp **đồng thời** ba chức năng quan trọng nhất:
 
-    - Chức năng phục hồi: cho phép khôi phục trạng thái trước khi phát hiện ra có lỗi trong một thao tác sửa đổi đã làm.
-    - Chức năng đồng bộ: cho phép nhiều người cùng sửa một/một tập hợp file cùng lúc vì các thao tác sửa đổi gây xung đột có thể được phát hiện và giải quyết sau đó.
-    - Ghi lại lịch sử: ghi lại các thông tin cần thiết của từng sửa đổi một, như tác giả, thời gian, các ghi chú giải trình thao tác thay đổi đó v.v...
+  - Chức năng phục hồi: cho phép khôi phục trạng thái trước khi phát hiện ra có lỗi trong một thao tác sửa đổi đã làm.
+  - Chức năng đồng bộ: cho phép nhiều người cùng sửa một/một tập hợp file cùng lúc vì các thao tác sửa đổi gây xung đột có thể được phát hiện và giải quyết sau đó.
+  - Ghi lại lịch sử: ghi lại các thông tin cần thiết của từng sửa đổi một, như tác giả, thời gian, các ghi chú giải trình thao tác thay đổi đó v.v...
 
   Chúng ta cùng tìm hiểu chi tiết hơn về các RCS:
 
@@ -80,7 +80,7 @@
   - mainline/trunk/master branch: nhánh chính
   - label/tag: nhãn/thẻ
 
-  Các thuật ngữ này cũng sẽ được bắt gặp khi thao tác thực tế. Mỗi hệ thống quản lí phiên bản khác nhau có thể sử dụng các thuật ngữ khác nhau. Việc hiểu các thuật ngữ trên đòi hỏi quá trình thực hành. Trong khuôn khổ bài viết mang tính giới thiệu chung này, tôi không thể đi sâu hơn. Muốn biết cụ thể, người đọc phải xem tài liệu cụ thể của hệ thống quản lí phiên bản mà mình lựa chọn.
+  Các thuật ngữ này cũng sẽ được bắt gặp khi thao tác thực tế. Mỗi hệ thống quản lí phiên bản khác nhau có thể sử dụng các thuật ngữ khác nhau. Việc hiểu các thuật ngữ trên **đòi hỏi một quá trình thực hành**. Trong khuôn khổ bài viết, tôi không thể đi sâu hơn. Muốn biết cụ thể, người đọc phải xem tài liệu cụ thể của hệ thống quản lí phiên bản mà mình lựa chọn.
 
 ## Lựa chọn hệ thống quản lí phiên bản
   Có nhiều hệ thống quản lí phiên bản và chúng rất khác nhau từ quan điểm thiết kế đến cách thức vận hành. Chúng ta phải có lựa chọn khi bắt đầu dự án mới, hoặc khi rà soát lại hệ thống đang sử dụng và quyết định xem có nên chuyển đổi hay không. Việc lựa chọn trước hết cần dựa trên việc trả lời câu hỏi: Thế nào là một hệ thống quản lí phiên bản tốt?
@@ -99,7 +99,7 @@
   Với đặc điểm thường xuyên làm việc với khối lượng mã nguồn khổng lồ, yêu cầu về đồng bộ hoá cao, cộng đồng phần mềm Tự do nguồn mở luôn đi đầu về Hệ thống quản lí phiên bản. Các đại diện ưu tú của phần mềm Tự do nguồn mở trong lĩnh vực này là git và mecurial.
 
 ### Hệ thống quản lí phiên bản phù hợp
-  - Đặc thù của việc phát triển phần mềm là việc sửa đổi các file mã nguồn diễn ra thường xuyên, liên tục. Chính vì vậy, hệ thống quản lí phiên bản được sử dụng ảnh hưởng mạnh mẽ đến hiệu quả và chất lượng của quá trình phát triển phần mềm. Vì vậy cần **dứt khoát** với các hệ thống quản lí phiên bản gây ra năng suất kém. Việc mạnh dạn chuyển đổi sang những công nghệ có lợi cũng thể hiện **năng lực của bạn và tổ chức của bạn**. Đó chỉ là thói quen, khi mà các hệ RCS mới đều hỗ trợ chuyển đổi (migrate) từ các hệ thống khác một cách tiện lợi.
+  - Đặc thù của việc phát triển phần mềm là việc sửa đổi các file mã nguồn diễn ra thường xuyên, liên tục. Chính vì vậy, hệ thống quản lí phiên bản được sử dụng ảnh hưởng mạnh mẽ đến hiệu quả và chất lượng của quá trình phát triển phần mềm. Vì vậy cần **dứt khoát** với các hệ thống quản lí phiên bản gây ra năng suất kém. Việc mạnh dạn chuyển đổi sang những công nghệ có lợi cũng thể hiện **năng lực** của bạn và tổ chức của bạn. Đó chỉ còn là vấn đề thói quen, khi mà các hệ RCS mới **đều hỗ trợ chuyển đổi (migrate)** từ các hệ thống khác một cách tiện lợi.
   - Các hệ RCS tốt tương đối giống nhau, việc lựa chọn trong số chúng chỉ còn dựa trên sự tương đồng về phong cách trong tổ chức. Nếu trong tổ chức của bạn đã có một số thành viên quen làm việc với một RCS tốt thì điều đó quả là tuyệt vời!
 
 # Kết luận
