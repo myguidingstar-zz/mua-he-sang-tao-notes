@@ -68,7 +68,7 @@ Nhiều người nghĩ rằng nên "để dành" các thay đổi đến khi "đ
   - Một trong các lợi ích của commit là nhanh chóng phục hồi (revert) lại trạng thái từ commit trước đó. Việc để dồn cho thay đổi đáng kể (big steps) không mang lại thêm "cái được" nhưng lại làm tăng đáng kể "cái mất". Làm theo hướng này, khi gặp lỗi trong quá trình thử nghiệm (vốn là một việc rất thường xuyên), lập trình viên phải lựa chọn hoặc mất cả (revert lại ngay), hoặc loay hoay sửa đến lúc được thì thôi. Dù chọn cách nào thì đó cũng là sự lãng phí (thời gian, công sức) mà lẽ ra có thể tránh được khi commit theo từng bước nhỏ.
   - Chiến lược small steps giúp lịch sử commit chi tiết, đồng thời các commit message cũng đơn giản và tự nhiên (ghi lại suy nghĩ của lập trình viên ngay tại thời điểm viết). Trong khi đó với chiến lược big steps, các commit message phức tạp hơn, và việc phải lục lại trí nhớ có thể khiến lập trình viên chán nản mà tạo ra những message nghèo giá trị thông tin. Big steps tạo ra lịch sử commit nghèo nàn và "quan liêu".
   - Nhiều RCS còn cho phép hợp nhất các thay đổi nhỏ. Điều này có thể hữu ích cho việc duyệt xem lịch sử được gọn hơn. Lưu ý chỉ áp dụng thao tác hợp nhất này cho những bộ phận mã nguồn đã đi vào ổn định. Nói chung, việc sửa đổi lịch sử cần có sự cân nhắc kĩ lưỡng.
- - Chiến lược big steps còn dẫn đến sự kém linh hoạt: các xung đột (conflict) phức tạp và việc xử lí xung đột cũng khó khăn gấp nhiều lần.
+  - Chiến lược big steps còn dẫn đến sự kém linh hoạt: các xung đột (conflict) phức tạp và việc xử lí xung đột cũng khó khăn gấp nhiều lần.
 
 Tóm lại, chiến lược big steps chỉ có thể gắn với các RCS tập trung vốn thống trị trong quá khứ chủ yếu do hạ tầng máy tính và mạng còn hạn chế.
 
