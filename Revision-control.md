@@ -3,6 +3,7 @@
 
   - Đây là một bài viết giới thiệu chung nhất về quản lí phiên bản.
   - Bài viết hướng đến đông đảo người đọc: bạn **không bắt buộc phải biết về CNTT** để hiểu bài viết này.
+  - Bạn không bắt buộc phải đọc hết ngay bài viết mà có thể lướt qua các chủ đề mình quan tâm. Cuối bài có phần tổng kết cho những ai muốn có kết luận nhanh.
   - Những ai muốn tìm hiểu sâu hơn nên tiếp cận các tài liệu tiếng Anh với mục "Đọc thêm" ở cuối bài.)
 
 ## Quản lí phiên bản là gì? Nó có cần thiết không? Nó có khó học không?
