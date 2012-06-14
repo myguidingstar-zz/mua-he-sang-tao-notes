@@ -90,7 +90,7 @@ Sẽ có người cho rằng:
 > Khẩu hiệu của ngành CNTT là "Nothing is impossible!", nhưng chọn cái impossible nào để hiện thực hoá thì cần phải thực tế.
 
 ## Phòng bệnh hơn chữa bệnh
-  - Với việc sử dụng TDD kết hợp với functional programming style, nhà phát triển **có thể tránh được hầu hết lỗi** khi chương trình được viết xong! Lập trình viên tuân thủ quy trình TDD sẽ **không mất phần lớn thời gian cho việc dò lỗi** giống như các đồng nghiệp truyền thống.
+  - Với việc sử dụng TDD kết hợp với functional programming style, nhà phát triển có thể **tránh được hầu hết** lỗi khi chương trình được viết xong! Lập trình viên tuân thủ quy trình TDD sẽ không **mất phần lớn thời gian** cho việc dò lỗi giống như các đồng nghiệp truyền thống.
 
 > - Để hiểu giá trị của việc **làm rõ yêu cầu**, hãy hỏi những người đã đầu tư cả triệu USD vào một mặt hàng không bán được.
 > - Để hiểu giá trị của việc **vạch ra hướng giải chung**, hãy hỏi những người hàng ngày tham gia giao thông Hà Nội về quy hoạch đô thị.
@@ -128,4 +128,5 @@ Sẽ có người cho rằng:
   - Tài liệu này không nên đơn giản là đọc từ trên xuống, hay lướt qua để tìm quy trình. Hãy thoải mái "nhảy cóc" giữa các phần và thậm chí là đọc lại nhiều hơn một lượt để hiểu được các thành phần.
 
 # Bản quyền
+  - Khi đăng tải lại bài viết này, vui lòng đăng tải cả thông tin bản quyền dưới đây
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/vn/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-nd/3.0/vn/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Test Driven Development (TDD), why?</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Hoàng Minh Thắng (myguidingstar)</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/vn/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Vietnam License</a>.
