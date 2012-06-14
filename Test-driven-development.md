@@ -77,11 +77,10 @@ Sẽ có người cho rằng:
 > Với TDD tôi phải viết thêm cả test nữa, làm sao nói là tiết kiệm thời gian hơn được?
 
   - Việc viết "test trước" như đã nói, đóng vai trò như viết nháp. Khi không làm như vậy, bạn vẫn mất thời gian cho việc suy nghĩ trong đầu, chỉ là chi phí thời gian này đã **không được tính** vào tổng chi phí thôi.
-  - Quá trình thể hiện ra ngôn ngữ máy tính chắc chắn phải đi qua những "non-computable functions"[1], trong đó có những thành phần phức tạp. Hiểu được tổng quan giúp chúng ta có thể lựa chọn một trong các phương án:
+  - Quá trình thể hiện ra ngôn ngữ máy tính chắc chắn phải đi qua những "non-computable functions"[1], trong đó có những thành phần phức tạp. Biết rõ tổng quan (3 bước đầu) giúp chúng ta có thể lựa chọn một trong các phương án:
     + tìm kiếm các thư viện sẵn có (thế mạnh của nguồn mở là đây!)
     + thuê ngoài một bên thứ ba triển khai
     + thành lập đội chuyên trách
-  Hoặc có thể quyết định mức độ phức tạp của một thành phần đến đâu tuỳ tổng quan tình hình.
 
 [1]:
   - Một ví dụ cho "non-computable functions" (mặc dù không được điển hình lắm) để dễ hình dung trong điều kiện Việt Nam là  "(trong một dự án web) in ra `tiêu đề`, `nội dung`, `tác giả` của một `bài viết` với giao diện thân thiện". Để hiện thực hoá thao tác này sẽ phải có đoạn chương trình làm thao tác in ra mã HTML, phải có người viết CSS, thậm chí động đến đồ hoạ và ajax!
