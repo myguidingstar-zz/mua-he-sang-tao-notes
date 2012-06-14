@@ -121,8 +121,6 @@ Sẽ có người cho rằng:
 ## Nếu bạn chưa thành công, đừng ngần ngại!
   - Với TDD chúng ta không nên nóng vội:
     + Ngay cả Microsoft cũng từng có [hướng dẫn về TDD](http://jamesshore.com/Blog/Microsoft-Gets-TDD-Completely-Wrong.html) cho lập trình viên hết sức lệch lạc (2004)!
-    + Mặc dù tôi ủng hộ TDD và đồng tình với kết luận ``` của nghiên cứu có tên [On the Effectiveness of Test-first Approach to Programming](http://nparc.cisti-icist.nrc-cnrc.gc.ca/npsi/ctrl?action=shwart&index=an&req=5763742&lang=en) nhưng cách thực hiện của nghiên cứu là không khoa học và người thực hiện cũng **chưa hiểu hết** về TDD (Erdogmus, Hakan
- - NRC Institute for Information Technology; National Research Council Canada - 2005).
   - Trong điều kiện thực tế ở Việt Nam, tổ chức của bạn có thể chưa có đủ điều kiện về mặt nhân sự để triển khai TDD hoặc công việc hàng ngày khiến bạn chưa đủ thời gian để **đi đến tận cùng** của TDD. Trong trường hợp đó, xin vui lòng không để trải nghiệm cá nhân của bạn (nhất là đừng nói dối rằng bạn/tổ chức của bạn đang tiến hành TDD rất tốt!) ảnh hưởng đến **quyền được biết** và lựa chọn của những người có cơ hội học tập.
   - Tài liệu này không nên đơn giản là đọc từ trên xuống, hay lướt qua để tìm quy trình. Hãy thoải mái "nhảy cóc" giữa các phần và thậm chí là đọc lại nhiều hơn một lượt để hiểu được các thành phần.
 
