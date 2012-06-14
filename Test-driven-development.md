@@ -77,15 +77,15 @@ Sẽ có người cho rằng:
 > Với TDD tôi phải viết thêm cả test nữa, làm sao nói là tiết kiệm thời gian hơn được?
 
   - Việc viết "test trước" như đã nói, đóng vai trò như viết nháp. Khi không làm như vậy, bạn vẫn mất thời gian cho việc suy nghĩ trong đầu, chỉ là chi phí thời gian này đã **không được tính** vào tổng chi phí thôi.
-  - Quá trình thể hiện ra ngôn ngữ máy tính chắc chắn phải đi qua những "non-computable functions"[^1], trong đó có những thành phần phức tạp. Hiểu được tổng quan giúp chúng ta có thể lựa chọn một trong các phương án:
+  - Quá trình thể hiện ra ngôn ngữ máy tính chắc chắn phải đi qua những "non-computable functions"[1], trong đó có những thành phần phức tạp. Hiểu được tổng quan giúp chúng ta có thể lựa chọn một trong các phương án:
     + tìm kiếm các thư viện sẵn có (thế mạnh của nguồn mở là đây!)
     + thuê ngoài một bên thứ ba triển khai
     + thành lập đội chuyên trách
   Hoặc có thể quyết định mức độ phức tạp của một thành phần đến đâu tuỳ tổng quan tình hình.
 
-[^1]:
-  Một ví dụ cho "non-computable functions" (mặc dù không được điển hình lắm) để dễ hình dung trong điều kiện Việt Nam là  "(trong một dự án web) in ra `tiêu đề`, `nội dung`, `tác giả` của một `bài viết` với giao diện thân thiện". Để hiện thực hoá thao tác này sẽ phải có đoạn chương trình làm thao tác in ra mã HTML, phải có người viết CSS, thậm chí động đến đồ hoạ và ajax!
-  Các ví dụ điển hình hơn cho "non-computable functions" thường là các đoạn chương trình cần một thuật toán để xử lí. Chẳng hạn "tự động in ra danh sách các `bài viết` có liên quan" sẽ đòi hỏi phải xây dựng một thuật toán phân tích nội dung của các bài viết. Nhưng nếu như nguồn lực có hạn thì thuật toán có thể chỉ là tính toán số thuộc tính `từ khoá` chung.
+[1]:
+  - Một ví dụ cho "non-computable functions" (mặc dù không được điển hình lắm) để dễ hình dung trong điều kiện Việt Nam là  "(trong một dự án web) in ra `tiêu đề`, `nội dung`, `tác giả` của một `bài viết` với giao diện thân thiện". Để hiện thực hoá thao tác này sẽ phải có đoạn chương trình làm thao tác in ra mã HTML, phải có người viết CSS, thậm chí động đến đồ hoạ và ajax!
+  - Các ví dụ điển hình hơn cho "non-computable functions" thường là các đoạn chương trình cần một thuật toán để xử lí. Chẳng hạn "tự động in ra danh sách các `bài viết` có liên quan" sẽ đòi hỏi phải xây dựng một thuật toán phân tích nội dung của các bài viết. Nhưng nếu như nguồn lực có hạn thì thuật toán có thể chỉ là tính toán số thuộc tính `từ khoá` chung.
 
 > Khẩu hiệu của ngành CNTT là "Nothing is impossible!", nhưng chọn cái impossible nào để hiện thực hoá thì cần phải thực tế.
 
