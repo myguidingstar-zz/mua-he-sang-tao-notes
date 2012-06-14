@@ -46,7 +46,7 @@ Phải chăng vì ngành CNTT không có những "lời thề Turing"[1], "lời
 
 (Các khác niệm sẽ được giải thích cụ thể trong bài viết về Quy trình. Nhưng bạn chưa cần đọc chúng ngay đâu!)
 
-Trong thực tiễn phát triển phần mềm, test dần thể hiện được vai trò của nó. Năm 1994, [Kent Beck](https://en.wikipedia.org/wiki/Kent_Beck) viết test framework đầu tiên cho môi trường ngôn ngữ [SmallTalk](). Với ưu thế rõ rệt, TDD nhanh chóng được tiếp thu và hầu như các ngôn ngữ lớn trên thế giới đều đã có test framework của mình. Ngày nay, TDD đã trở thành một **chuẩn mực** trong việc phát triển phần mềm.
+Trong thực tiễn phát triển phần mềm, test dần thể hiện được vai trò của nó. Năm 1994, [Kent Beck](http://en.wikipedia.org/wiki/Kent_Beck) viết test framework đầu tiên cho môi trường ngôn ngữ [SmallTalk](http://en.wikipedia.org/wiki/Smalltalk). Với ưu thế rõ rệt, TDD nhanh chóng được tiếp thu và hầu như các ngôn ngữ lớn trên thế giới đều đã có test framework của mình. Ngày nay, TDD đã trở thành một **chuẩn mực** trong việc phát triển phần mềm.
 
 > TDD được hiểu là việc phát triển phần mềm có sự tham gia (nếu không muốn nói là đóng vai trò định hướng) chặt chẽ của test. Về mặt triển khai, TDD là mô thức phát triển phần mềm đã được **quy trình hoá**.
 
@@ -64,7 +64,7 @@ Hiểu "test" theo nghĩa rộng của nó trong TDD, bạn sẽ không còn th�
   - Khi gặp một **bài toán của cuộc sống**, tư duy thông thường để giải quyết sẽ lần lượt qua các bước:
     + Bước 1: Phân tích vấn đề và đưa ra yêu cầu (tức kết quả muốn đạt được)
     + Bước 2: Phương hướng giải chung nhất (Trong lập trình: thường được thể hiện lại trên các sơ đồ UML)
-    + Bước 3: Cho ra lời giải cụ thể bằng ngôn ngữ tự nhiên hoặc các khái niệm trừu tượng (Concept design)
+    + Bước 3: Cho ra lời giải cụ thể bằng ngôn ngữ tự nhiên hay trừu tượng (Concept)
     + Bước 4: Thao tác (Trong lập trình: thể hiện lại lời giải trên bằng ngôn ngữ máy tính)
   - Hầu hết mọi người sẽ đồng tình với các bước trên, nhưng đến khi bắt tay vào việc thì không phải ai cũng làm như vậy. Bước thao tác luôn là bước tốn nhiều thời gian nhất. Chính vì thế nhiều người bị **sa đà vào bước này**.
     + Với các bài toán nhỏ, chẳng hạn như việc giao tiếp hàng ngày, 3 bước đầu diễn ra ngay trong vô thức. Khi các bài toán lớn hơn, nhất là khi nó trở thành một dự án tốn nhiều tháng thậm chí nhiều năm triển khai, thời gian cho 3 bước đầu lại không được **nhân lên với tỉ lệ tương xứng**!
@@ -77,23 +77,24 @@ Sẽ có người cho rằng:
 > Với TDD tôi phải viết thêm cả test nữa, làm sao nói là tiết kiệm thời gian hơn được?
 
   - Việc viết "test trước" như đã nói, đóng vai trò như viết nháp. Khi không làm như vậy, bạn vẫn mất thời gian cho việc suy nghĩ trong đầu, chỉ là chi phí thời gian này đã **không được tính** vào tổng chi phí thôi.
-  - Quá trình thể hiện ra ngôn ngữ máy tính chắc chắn phải đi qua những "non-computable functions"(), trong đó có những thành phần phức tạp. Hiểu được tổng quan giúp chúng ta có thể lựa chọn một trong các phương án:
+  - Quá trình thể hiện ra ngôn ngữ máy tính chắc chắn phải đi qua những "non-computable functions"[^1], trong đó có những thành phần phức tạp. Hiểu được tổng quan giúp chúng ta có thể lựa chọn một trong các phương án:
     + tìm kiếm các thư viện sẵn có (thế mạnh của nguồn mở là đây!)
     + thuê ngoài một bên thứ ba triển khai
     + thành lập đội chuyên trách
   Hoặc có thể quyết định mức độ phức tạp của một thành phần đến đâu tuỳ tổng quan tình hình.
 
+[^1]:
+  Một ví dụ cho "non-computable functions" (mặc dù không được điển hình lắm) để dễ hình dung trong điều kiện Việt Nam là  "(trong một dự án web) in ra `tiêu đề`, `nội dung`, `tác giả` của một `bài viết` với giao diện thân thiện". Để hiện thực hoá thao tác này sẽ phải có đoạn chương trình làm thao tác in ra mã HTML, phải có người viết CSS, thậm chí động đến đồ hoạ và ajax!
+  Các ví dụ điển hình hơn cho "non-computable functions" thường là các đoạn chương trình cần một thuật toán để xử lí. Chẳng hạn "tự động in ra danh sách các `bài viết` có liên quan" sẽ đòi hỏi phải xây dựng một thuật toán phân tích nội dung của các bài viết. Nhưng nếu như nguồn lực có hạn thì thuật toán có thể chỉ là tính toán số thuộc tính `từ khoá` chung.
+
 > Khẩu hiệu của ngành CNTT là "Nothing is impossible!", nhưng chọn cái impossible nào để hiện thực hoá thì cần phải thực tế.
-():
-  - Một ví dụ cho "non-computable functions" (mặc dù không được điển hình lắm) để dễ hình dung trong điều kiện Việt Nam là  "(trong một dự án web) in ra `tiêu đề`, `nội dung`, `tác giả` của một `bài viết` với giao diện thân thiện". Để hiện thực hoá thao tác này sẽ phải có đoạn chương trình làm thao tác in ra mã HTML, phải có người viết CSS, thậm chí động đến đồ hoạ và ajax!
-  - Các ví dụ điển hình hơn cho "non-computable functions" thường là các đoạn chương trình cần một thuật toán để xử lí. Chẳng hạn "tự động in ra danh sách các `bài viết` có liên quan" sẽ đòi hỏi phải xây dựng một thuật toán phân tích nội dung của các bài viết. Nhưng nếu như nguồn lực có hạn thì thuật toán có thể chỉ là tính toán số thuộc tính `từ khoá` chung.
 
 ## Phòng bệnh hơn chữa bệnh
   - Với việc sử dụng TDD kết hợp với functional programming style, nhà phát triển **có thể tránh được hầu hết lỗi** khi chương trình được viết xong! Lập trình viên tuân thủ quy trình TDD sẽ **không mất phần lớn thời gian cho việc dò lỗi** giống như các đồng nghiệp truyền thống.
 
 > - Để hiểu giá trị của việc **làm rõ yêu cầu**, hãy hỏi những người đã đầu tư cả triệu USD vào một mặt hàng không bán được.
 > - Để hiểu giá trị của việc **vạch ra hướng giải chung**, hãy hỏi những người hàng ngày tham gia giao thông Hà Nội về quy hoạch đô thị.
-> - Để hiểu giá trị của việc **refactor**, hãy hỏi người đã bỏ tiền ra mua những "[chung cư cao cấp]()" về chất lượng sống!
+> - Để hiểu giá trị của việc **refactor**, hãy hỏi người đã bỏ tiền ra mua những "[chung cư cao cấp](http://vef.vn/2012-05-01-chung-cu-cao-cap-nhanh-xuong-cap)" về chất lượng sống!
 
 ## Tài liệu cho nhà phát triển
   - Các nhà phát triển thường khoái đọc code và những ví dụ hơn là gặm nhấm tập tài liệu giải thích các vấn đề kĩ thuật bằng ngôn ngữ phi kĩ thuật (như bài viết này đang làm ^^). TDD làm **chính xác** công việc đó!
@@ -121,7 +122,8 @@ Sẽ có người cho rằng:
 ## Nếu bạn chưa thành công, đừng ngần ngại!
   - Với TDD chúng ta không nên nóng vội:
     + Ngay cả Microsoft cũng từng có [hướng dẫn về TDD](http://jamesshore.com/Blog/Microsoft-Gets-TDD-Completely-Wrong.html) cho lập trình viên hết sức lệch lạc (2004)!
-    + Mặc dù tôi ủng hộ TDD và đồng tình với kết luận ``` của nghiên cứu có tên [test-first](http://nparc.cisti-icist.nrc-cnrc.gc.ca/npsi/ctrl?action=shwart&index=an&req=5763742&lang=en) nhưng cách thực hiện của nghiên cứu là không khoa học và người thực hiện cũng **chưa hiểu hết** về TDD (Đại học , Canada 2005).
+    + Mặc dù tôi ủng hộ TDD và đồng tình với kết luận ``` của nghiên cứu có tên [On the Effectiveness of Test-first Approach to Programming](http://nparc.cisti-icist.nrc-cnrc.gc.ca/npsi/ctrl?action=shwart&index=an&req=5763742&lang=en) nhưng cách thực hiện của nghiên cứu là không khoa học và người thực hiện cũng **chưa hiểu hết** về TDD (Erdogmus, Hakan
+ - NRC Institute for Information Technology; National Research Council Canada - 2005).
   - Trong điều kiện thực tế ở Việt Nam, tổ chức của bạn có thể chưa có đủ điều kiện về mặt nhân sự để triển khai TDD hoặc công việc hàng ngày khiến bạn chưa đủ thời gian để **đi đến tận cùng** của TDD. Trong trường hợp đó, xin vui lòng không để trải nghiệm cá nhân của bạn (nhất là đừng nói dối rằng bạn/tổ chức của bạn đang tiến hành TDD rất tốt!) ảnh hưởng đến **quyền được biết** và lựa chọn của những người có cơ hội học tập.
   - Tài liệu này không nên đơn giản là đọc từ trên xuống, hay lướt qua để tìm quy trình. Hãy thoải mái "nhảy cóc" giữa các phần và thậm chí là đọc lại nhiều hơn một lượt để hiểu được các thành phần.
 
